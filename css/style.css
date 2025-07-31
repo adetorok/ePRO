@@ -92,14 +92,13 @@ margin: 0!important;
 }
 .anim  { 
     transition: all;
-    transition-duration: 2ms;
+    transition-duration: 2s;
     transition-timing-function: ease-in-out;
-    transition-delay: 1ms;
 }
 
 .anim:hover {
     /* transform: translate(50px, 20px); Moves 50px right, 20px down */
-  transform: translateY(100%); 
+  transform: translateY(10%) translateX(50%);
 }
 
     #cardContainer {
