@@ -1,0 +1,128 @@
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .nav {background-color: rgb(179, 179, 185);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+      height: 80px;
+      
+    }
+    .navbar-brand {
+padding: 0!important;
+margin: 0!important;
+    }
+    .nav ul li a {
+    /* color: black;  */
+    }
+    .nav ul li a active {
+      color: #1d81d3;
+    } 
+
+
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      /* min-height: 50vh; */
+    }
+
+    .left-box,
+    .right-box {
+      flex: 1;
+      padding: 0;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .left-box {
+      align-items: end;
+      max-width: 50%;
+      padding-left: 8rem;
+     
+    }
+
+    .right-box {
+      align-items: center;
+      max-width: 50%;
+      padding-right: 8rem;
+
+    }
+
+    .hero-text h1 {
+      font-size: 2rem;
+      color: #2196f3;
+      margin: 0.5rem 0;
+    }
+
+    .hero-text p {
+      font-size: 1rem;
+      color: #333;
+    }
+
+    button {
+      margin-top: 1rem;
+      margin-right: 1rem;
+      padding: 0.6em 1.2em;
+      border: none;
+      background-color: #2196f3;
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    /* Cards */
+
+    .feature-icon {
+    width: 80px;
+    height: 80px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.anim  { 
+    transition: all;
+    transition-duration: 2ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1ms;
+}
+
+.anim:hover {
+    /* transform: translate(50px, 20px); Moves 50px right, 20px down */
+  transform: translateY(100%); 
+}
+
+    #cardContainer {
+      display: flex;
+      width: 100;
+      flex-wrap: wrap;
+      gap: 1rem;
+      padding: 2rem;
+      border-top: 1px solid #ccc;
+    }
+    .card {
+      /* flex: 1 1 calc(25% - 2rem); */
+      width: 20%
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 1rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .cardinsert h4 {
+      margin-bottom: 0.5rem;
+    }
+
+    .cardinsert p {
+      font-size: 0.9rem;
+    }
